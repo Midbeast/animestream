@@ -24,5 +24,9 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
+    },
+    "engines": {
+        "node": "v19.4.*",
+        "npm": "v9.2.*"
     }
 }
