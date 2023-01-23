@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Movies Page{% endblock %}
+
+{% block body %}
+    <h1 class="text-3xl font-bold underline">
+        MoviePage
+    </h1>
+    <br>
+
+    <a class="link" href="{{ path('app_landing_page') }}">
+        Landing Page
+    </a>
+
+    <br>
+
+    <a class="link" href="{{ path('app_homepage') }}">
+        Homepage
+    </a>
+{% endblock %}
